@@ -1,0 +1,42 @@
+=== MACHINE INFO TEST ===
+[MACHINE] Hostname: DESKTOP-SE2DV0Q
+[MACHINE] IP: 192.168.1.152
+
+=== ECHO TEST ===
+[ECHO] Server listening on 127.0.0.1:5000
+[ECHO] Connected: ('127.0.0.1', 64386)
+[ECHO-TEST] Client got: b'hello123'
+[ECHO] Server listening on 127.0.0.1:5000
+[ECHO] Connected: ('127.0.0.1', 63320)
+[ECHO-TEST] Client got: b'hello123'
+
+=== SNTP MODULE TEST ===
+[SNTP] Sunucudan alınan zaman: Fri Oct 24 10:59:29 2025
+
+=== SOCKET SETTINGS TEST ===
+Timeout: 2.0 s
+SO_RCVBUF: 65536
+SO_SNDBUF: 65536
+Non-blocking accept: pending connection yok (beklenen).
+
+=== CHAT MODULE TEST ===
+[CHAT] Sunucu başlatıldı. Bağlantı bekleniyor...
+[CHAT] Bağlandı: ('127.0.0.1', 53489)
+[Client] hello
+[Client] whatsaap
+[Client] everything is allright
+[Client] 222
+[Client] hi
+[CHAT] İletişim testi başarılı: çift yönlü mesajlaşma sağlandı.
+[CHAT] Sunucuya bağlanıldı.
+You: [Server] hi
+[Server] hi
+You: whatsaap
+You: [Server] hellloooo2
+[Server] 222
+everything is allright
+You: [Server] hi
+
+=== TEST TAMAMLANDI ===
+Tüm modüller başarıyla test edildi.
+Hiçbir bağlantı veya timeout hatası gözlenmedi.
